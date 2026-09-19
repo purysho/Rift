@@ -1,10 +1,13 @@
 <div align="center">
+  <img src="assets/icon.svg" width="120" alt="Rift icon">
   <h1>Rift</h1>
   <p><strong>Compare two folders or builds and see exactly what changed.</strong></p>
-  <p><a href="https://github.com/purysho/Rift/releases"><strong>Download for Windows</strong></a> · <a href="#run-from-source">Run from source</a> · <a href="https://github.com/purysho/Rift/issues">Report an issue</a></p>
+  <p><a href="#run-from-source"><strong>Run from source</strong></a> · <a href="https://github.com/purysho/Rift/actions">CI builds</a> · <a href="https://github.com/purysho/Rift/issues">Report an issue</a></p>
 </div>
 
 Rift is a local-first folder and build comparison tool. It scans two directory trees, identifies added/removed/modified paths, and—when hashing is enabled—detects content-preserving renames.
+
+![Rift interface preview](docs/interface-preview.svg)
 
 ## Features
 - Side-by-side folder selection
